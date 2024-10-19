@@ -1,0 +1,124 @@
+/* Style to body tag*/
+body {
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    background: rgb(217, 212, 212);
+}
+
+/* Style to expense summary */
+.summary {
+    width: 75rem;
+    border-radius: 10px;
+    display: flex;
+    background-color: #7100a5;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.total {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.total>div {
+    width: 200px;
+}
+
+/* Style for the expense table and input form*/
+.root {
+    width: fit-content;
+    background-color: #fff0ff;
+    display: flex;
+    margin: auto;
+    padding: 2%;
+    padding-top: 1%;
+    justify-content: center;
+    text-align: center;
+    border-width: 6px;
+    border: 6px grey;
+    border-radius: 8px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-height: 30vh;
+}
+
+
+/* Style for the verticle bar*/
+.vertical {
+    color: #7100a5;
+    margin: 0 2%;
+    border-width: 2px;
+}
+
+/* Style for table*/
+#table {
+    border-collapse: collapse;
+    width: 50vw;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+/* Table */
+#table th,
+#table td {
+    text-align: left;
+    padding: 10px;
+}
+
+/* Table row */
+#table tr {
+    border-bottom: 2px solid #ddd;
+    background-color: #dbb6ee;
+}
+
+/* Headings*/
+#table tr.titles {
+    background-color: #7100a5;
+    color: white;
+}
+
+/* Style for each input item */
+.inputitem {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    font-size: large;
+    padding: 1%;
+}
+
+input,
+select,
+option {
+    padding: 2%;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+button {
+    font-size: large;
+    border-radius: 15px;
+    padding: 10px;
+    background: #7100a5;
+    color: white;
+   
+}
+
+.zoom {
+    color: black;
+    transition: transform .2s;
+
+}
+
+.zoom:hover {
+    transform: scale(1.23);
+
+    color: green;
+}
